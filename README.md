@@ -67,6 +67,8 @@ cd python-calculator
 python main.py
 ```
 
+Alternatively, you can download the pre-built Windows executable from the [Releases](temp) section and run the calculator without needing to install Python.
+
 ## Educational Purpose
 
 This project is a remake of my Data Structures final project, modernized in Python to reinforce:
