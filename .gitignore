@@ -1,0 +1,18 @@
+# Bytecode cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# PyInstaller build folders
+build/
+dist/
+*.spec
+
+# Local environment
+.venv/
+
+# Local runtime data
+variables.json
+
+# OS files
+.DS_Store
