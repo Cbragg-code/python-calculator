@@ -1,20 +1,18 @@
-# Byte-compiled files
+# Bytecode cache files
 __pycache__/
-*.py[cod]
+*.pyc
 *.pyo
 
-# VSCode settings (optional, if you're using VSCode)
-.vscode/
+# PyInstaller build folders
+build/
+dist/
+*.spec
 
-# MacOS system files
-.DS_Store
+# Local environment
+.venv/
 
-# Virtual environments
-venv/
-.env/
-
-# Python cache files
-*.log
-
-# Ignore variables file
+# Local runtime data
 variables.json
+
+# OS files
+.DS_Store

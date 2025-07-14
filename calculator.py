@@ -10,7 +10,7 @@ class Calculator:
 
     def _push_undo(self):
         self.undo_stack.append(self.result)
-        self.redo_stack.clear()        # reset redo when new action happens.
+        self.redo_stack.clear()
 
     def create_variable(self, name):
         self.variables[name] = self.result
