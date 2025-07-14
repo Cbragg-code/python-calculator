@@ -2,7 +2,7 @@ import math
 
 
 class Calculator:
-    def _init__(self):
+    def __init__(self):
         self.result = 0.0
         self.undo_stack = []
         self.redo_stack = []
