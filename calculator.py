@@ -23,14 +23,6 @@ class Calculator:
         if name in self.variables:
             self.variables[name] = self.result
 
-    def write_variables(self, filepath):
-        with open(filepath, 'w') as file:
-            json.dump(self.variables, file)
-
-    def read_variables(self, filepath):
-        with open(filepath, 'r') as file:
-            self.variables = json.load(file)
-
     def add(self, value):
         self._push_undo()
         self.result += value
